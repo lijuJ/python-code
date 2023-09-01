@@ -1,14 +1,6 @@
-def count_substring(string, sub_string):
-    count=0
-    for i in range(len(string)):
-        if (string[i:i+len(sub_string)])==sub_string:
-            count+=1
-            
-    return count
-
-if __name__ == '__main__':
-    string = input().strip()##strip() function removes white spaces from the starting aand ending
-    sub_string = input().strip()
-    
-    count = count_substring(string, sub_string)
-    print(count)
+text = input("enter the text")
+val=input("enter the substring")
+if val in text:
+    print("Substring found!")
+else:
+    print("Substring not found!")
