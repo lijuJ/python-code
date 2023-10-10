@@ -5,7 +5,7 @@ def printOrder(arr, n):
 
     # printing first half in ascending order
 
-    for i in range(n / 2):
+    for i in range(n // 2):
         print(arr[i], end = " ")
 
     # printing second half in descending order
